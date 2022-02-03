@@ -18,6 +18,7 @@ body {
 header {
     background-color: #FFFF7C;
     border-radius: 10px 10px 0 0;
+
 }
 
 header img {
@@ -104,4 +105,26 @@ nav a:hover {
     text-align: center;
     color: #E49641;
     font-size: large;
+    font-family: sans-serif;
+}
+
+.p {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p1 {
+    font-family: sans-serif;
+}
+
+.p2 {
+    font-family: fantasy;
+}
+
+.p3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h1 {
+    font-variant: small-caps;
 }
