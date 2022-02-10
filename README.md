@@ -7,3 +7,6 @@
 
 <a href="adventure2/index.html" target="_blank">Adventure 2</a>
 
+
+<a href="adventure3/index.html" target="_blank">Adventure 3</a>
+
