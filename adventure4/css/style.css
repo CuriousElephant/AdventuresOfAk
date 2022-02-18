@@ -1,0 +1,198 @@
+/* Global Styles*/
+
+body {
+    background-color: #E92F23;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 2px auto;
+
+}
+
+/* Mobile Styles */
+
+#container {
+    background-color: #ff0000;
+    margin: 5%;
+}
+header {
+    background-image: url('../images/frozenTreeTops.jpg');
+    background-size: cover;
+    padding: 80px 0;
+    border-radius: 10px 10px 0 0;
+}
+header h1 {
+    color: #FCFEFD;
+    text-shadow: 0 0 3px  #ff0000, 0 0 5px #0000ff;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    background-color: #C52227;
+    color: #FCFEFD;
+    text-shadow: 0 0 3px  #ff0000, 0 0 5px #61ffad;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: solid;
+    font-size: large;
+    margin: 3%;
+    border-radius: 5px 5px 5px 5px;
+}
+nav li a:hover {
+    background-color: #761711;
+}
+nav, section, aside, .col, footer {
+    background-color: #61FFAD;
+    padding: 10px;
+    margin: 10px;
+    border: 4px inset;
+    border-inline-color: #C52227;
+    border-radius: 10px;
+}
+h2, h3 {
+    color: #761711;
+    font-size: x-large;
+    text-align: center;
+}
+section img, aside img {
+    width: 75%;
+}
+.button {
+    display: block;
+    background-color: #C52227;
+    color: #FCFEFD;
+    text-shadow: 0 0 3px  #ff0000, 0 0 5px #61ffad;
+    text-align: center;
+    height: 30px;
+    width: 155px;
+    line-height: 30px;
+    text-decoration: solid;
+    font-size: large;
+    margin: 3% auto;
+    border-radius: 5px 5px 5px 5px;
+}
+.button:hover {
+    animation: effect 0.4s infinite;
+}
+@keyframes effect {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translateX(-4px) rotate(-4deg);
+    }
+
+    40% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    60% {
+        transform: translateX(4px) rotate(4deg);
+    }
+
+    80% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+footer {
+    text-align: center;
+    font-size: x-large;
+    color: #0000ff;
+}
+.single_col {
+    width: 84%;
+}
+audio, video {
+    display: block;
+    margin: 10px auto;
+    width: 65%;
+}
+iframe {
+    display: block;
+    margin: 10px auto;
+    width: 65%;
+}
+
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+    header {
+        padding: 120px;
+    }
+    header h1 {
+        font-size: medium;
+    }
+    nav {
+        text-align: center;
+        padding: 20px;
+
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        height: 60px;
+        line-height: 60px;
+        width: 150px;
+    }
+    #upper_flex {
+        display: flex;
+    }
+    section {
+        width: 55%;
+    }
+    aside {
+        width: 45%;
+    }
+    aside img {
+        width: 90%;
+    }
+    .col img {
+        width: 90%;
+        border-color: #FCFEFD;
+        border: inset;
+    }
+    .single_col {
+        width: 100%;
+    }
+}  
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 85%;
+        margin: 10px auto;
+        border: 2px solid #0000ff;
+        border-radius: 10px;
+    }
+    #lower_flex {
+        display: flex;
+    }
+    .col {
+        width: 100%;
+    }
+    .col img {
+        width: 100%;
+    }
+    .single_col {
+        width: 100%;
+    }
+
+}
