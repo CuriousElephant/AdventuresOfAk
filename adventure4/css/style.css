@@ -45,7 +45,7 @@ nav li a {
     height: 30px;
     line-height: 30px;
     text-decoration: solid;
-    font-size: medium;
+    font-size: 2em;
     margin: 3%;
     border-radius: 5px 5px 5px 5px;
 }
@@ -184,6 +184,9 @@ p {
     .single_col {
         width: 100%;
     }
+    header h1 {
+        font-size: xx-large;
+    }
 }  
 
 /* Desktop Styles */
@@ -220,6 +223,9 @@ p {
     }
     table {
         display: block;
+    }
+    header h1 {
+        font-size: xx-large;
     }
 
 }
