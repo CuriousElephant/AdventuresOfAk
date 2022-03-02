@@ -12,4 +12,4 @@
 
 <a href="adventure4/index.html" target="_blank">Adventure 4</a>
 
-<a href="final/index.html" target="_blank">Final</a>
+<a href="Final/index.html" target="_blank">Final</a>
