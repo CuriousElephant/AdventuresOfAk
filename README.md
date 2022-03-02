@@ -11,3 +11,5 @@
 <a href="adventure3/index.html" target="_blank">Adventure 3</a>
 
 <a href="adventure4/index.html" target="_blank">Adventure 4</a>
+
+<a href="final/index.html" target="_blank">Final</a>
