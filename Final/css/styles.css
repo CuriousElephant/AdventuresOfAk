@@ -40,12 +40,12 @@ header h1 {
     box-shadow: 0px 10px 15px 0px#93816D;
     margin: 0 auto;
     border-radius: 2px;
-
 }
 .dropdown {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -58,15 +58,17 @@ header h1 {
 .dropdown-content a {
     color: whitesmoke;
     font-size: 2em;
-    padding: 10px 10px;
+    padding: 5px 5px;
     text-decoration: none;
-    display: block;
-    margin: 3px;
+    display: block;    
     border: solid #D1CFD2;
     border-radius: 2px;
+    transform: translate(-10%);
 }
 .dropdown-content a:hover {
     background-color: #563F1D;
+    align-items: center;
+    text-align: center;
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -76,7 +78,7 @@ header h1 {
 }
 nav {
     margin: auto;
-    list-style-type: none;
+    text-align: center;
 }
 section, aside, .col {
     font-family: 'Amatic SC', cursive;
