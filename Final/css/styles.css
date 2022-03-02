@@ -15,12 +15,15 @@ img {
 /* Mobile Styles */
 #container {
     background-color: #171B1E;
+    border-radius: 20px 20px 0 0;
     margin: 50px;
 }
 header {
     background-image: url('../images/moonSurface.jpg');
     background-size: cover;
     padding: 50px 20px;
+    border-radius: 20px 20px 0 0;
+    border: solid #D1CFD2;
 }
 header h1 {
     color: #F9D5A3;
@@ -35,6 +38,9 @@ header h1 {
     font-size: 3em;
     border: #F9D5A3;
     box-shadow: 0px 10px 15px 0px#93816D;
+    margin: 0 auto;
+    border-radius: 2px;
+
 }
 .dropdown {
     position: relative;
@@ -55,6 +61,9 @@ header h1 {
     padding: 10px 10px;
     text-decoration: none;
     display: block;
+    margin: 3px;
+    border: solid #D1CFD2;
+    border-radius: 2px;
 }
 .dropdown-content a:hover {
     background-color: #563F1D;
@@ -64,6 +73,9 @@ header h1 {
 }
 .dropdown:hover .dropbtn {
     background-color: #563F1D;
+}
+nav {
+    margin: auto;
 }
 section, aside, .col {
     font-family: 'Amatic SC', cursive;
@@ -75,6 +87,14 @@ footer {
     color: #FCE3A1;
     text-shadow: 5px 5px 5px#FF560A;
     background-color: #050505;
+}
+.single_col {
+    width: 100%;
+}
+audio, video {
+    display: block;
+    margin: 15px auto;
+    width: 80%;
 }
 
 
@@ -93,10 +113,33 @@ footer {
         width: 50%;
         background-color: #212226;
         padding: 20px;
-        margin: 15ps;
+        margin: 15px;
         border: 3px solid #D1CFD2;
         border-radius: 5px;
     }
+    .col img {
+        width: 95%;
+    
+    }
+    .col {
+        border-radius: 5px;
+        border: solid#D1CFD2;
+    } 
 }
 
 /* Desktop Styles */
+@media(min-width: 1024px) {
+    #container {
+        width: 80%;
+        margin: 30px auto;
+    }
+    aside img {
+        width: 100%;
+    }
+    #lower_flex {
+        display: flex;
+    }
+    .col, .col img {
+        width: 100%;
+    }
+}
