@@ -76,6 +76,7 @@ header h1 {
 }
 nav {
     margin: auto;
+    list-style-type: none;
 }
 section, aside, .col {
     font-family: 'Amatic SC', cursive;
