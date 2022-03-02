@@ -96,6 +96,14 @@ audio, video {
     margin: 15px auto;
     width: 80%;
 }
+.smallMoons_img {
+    border: 2px solid #D1cFD2;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+table {
+    display: none;
+}
 
 
 /* Tablet Styles */
@@ -141,5 +149,19 @@ audio, video {
     }
     .col, .col img {
         width: 100%;
+    }
+    table, tr, td {
+        border: 4px solid #d1cfd2;
+        padding: 12px;
+        margin: 15px;
+    }
+    table img {
+        width: 100%;
+    }
+    .smallMoons {
+        display: none;
+    }
+    table {
+        display: block;
     }
 }
