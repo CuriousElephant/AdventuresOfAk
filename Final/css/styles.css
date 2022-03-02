@@ -1,0 +1,23 @@
+/* Global Styles */
+body {
+    background-color: #171B1E;    
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mobile Styles */
+
+header h1 {
+    color: #F9D5A3;
+    text-align: center;
+    text-shadow: 3px 3px 3px#BF9D73;
+}
+
+
+
+/* Tablet Styles */
+
+/* Desktop Styles */
