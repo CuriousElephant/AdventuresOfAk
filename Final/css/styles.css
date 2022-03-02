@@ -1,6 +1,10 @@
 /* Global Styles */
 body {
-    background-color: #171B1E;    
+    background-image: url(../images/milkyWayBackground.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 img {
     display: block;
@@ -9,15 +13,90 @@ img {
 }
 
 /* Mobile Styles */
-
+#container {
+    background-color: #171B1E;
+    margin: 50px;
+}
+header {
+    background-image: url('../images/moonSurface.jpg');
+    background-size: cover;
+    padding: 50px 20px;
+}
 header h1 {
     color: #F9D5A3;
+    font-size: 4em;
     text-align: center;
     text-shadow: 3px 3px 3px#BF9D73;
 }
-
+.dropbtn {
+    background-color: #93816D;
+    color: white;
+    padding: 15px;
+    font-size: 3em;
+    border: #F9D5A3;
+    box-shadow: 0px 10px 15px 0px#93816D;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5A4526;
+    width: 100%;
+    box-shadow: 0px 10px 15px 0px#93816D;
+    z-index: 1;
+    overflow: auto;
+}
+.dropdown-content a {
+    color: whitesmoke;
+    font-size: 2em;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #563F1D;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #563F1D;
+}
+section, aside, .col {
+    font-family: 'Amatic SC', cursive;
+    color: whitesmoke;
+    font-size: 2.25em;
+}
+footer {
+    font-size: 2em;
+    color: #FCE3A1;
+    text-shadow: 5px 5px 5px#FF560A;
+    background-color: #050505;
+}
 
 
 /* Tablet Styles */
+@media(min-width: 768px) {
+    header {
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 4em;
+    }
+    #upper_flex {
+        display: flex;
+    }
+    section, aside {
+        width: 50%;
+        background-color: #212226;
+        padding: 20px;
+        margin: 15ps;
+        border: 3px solid #D1CFD2;
+        border-radius: 5px;
+    }
+}
 
 /* Desktop Styles */
